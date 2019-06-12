@@ -14,25 +14,25 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt": "^2.8.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
     "@nuxtjs/eslint-config": "^0.0.1",
     "babel-eslint": "^8.2.1",
-    "eslint": "^5.0.1",
-    "eslint-config-standard": ">=12.0.0",
-    "eslint-plugin-import": ">=2.14.0",
-    "eslint-plugin-jest": ">=21.24.1",
-    "eslint-plugin-node": ">=7.0.1",
-    "eslint-plugin-promise": ">=4.0.1",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "nodemon": "^1.19.1",
     "prettier": "1.14.3"
   }
 }
